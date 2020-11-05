@@ -1,0 +1,8 @@
+<ParameterList>
+
+  <!-- Solver parameters -->
+
+  <Parameter name="Maximum Iterations" type="int" value="3"/>
+  <Parameter name="Absolute Tolerance" type="double" value="1.0e-3"/>
+
+</ParameterList>

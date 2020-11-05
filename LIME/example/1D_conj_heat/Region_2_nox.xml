@@ -1,0 +1,28 @@
+<ParameterList name="ANONYMOUS">
+  <ParameterList id="10" name="Direction">
+    <Parameter docString="" id="0" isDefault="false" isUsed="true" name="Method" type="string" value="Newton"/>
+    <ParameterList id="9" name="Newton">
+      <Parameter docString="" id="1" isDefault="false" isUsed="true" name="Forcing Term Method" type="string" value="Constant"/>
+      <ParameterList id="8" name="Linear Solver">
+        <Parameter docString="" id="2" isDefault="false" isUsed="true" name="Aztec Preconditioner" type="string" value="ilu"/>
+        <Parameter docString="" id="3" isDefault="false" isUsed="true" name="Aztec Solver" type="string" value="GMRES"/>
+        <Parameter docString="" id="4" isDefault="false" isUsed="true" name="Max Iterations" type="int" value="22"/>
+        <Parameter docString="" id="5" isDefault="false" isUsed="true" name="Output Frequency" type="int" value="1"/>
+        <Parameter docString="" id="6" isDefault="false" isUsed="true" name="Preconditioner" type="string" value="None"/>
+        <Parameter docString="" id="7" isDefault="false" isUsed="true" name="Tolerance" type="double" value="0.0001"/>
+      </ParameterList>
+    </ParameterList>
+  </ParameterList>
+  <ParameterList id="12" name="Line Search">
+    <Parameter docString="" id="11" isDefault="false" isUsed="true" name="Method" type="string" value="Full Step"/>
+  </ParameterList>
+  <Parameter docString="" id="13" isDefault="false" isUsed="true" name="Nonlinear Solver" type="string" value="Line Search Based"/>
+  <ParameterList id="18" name="Printing">
+    <Parameter docString="" id="14" isDefault="false" isUsed="true" name="MyPID" type="int" value="0"/>
+    <Parameter docString="" id="15" isDefault="false" isUsed="true" name="Output Information" type="int" value="3"/>
+    <Parameter docString="" id="16" isDefault="false" isUsed="true" name="Output Precision" type="int" value="3"/>
+    <Parameter docString="" id="17" isDefault="false" isUsed="true" name="Output Processor" type="int" value="0"/>
+  </ParameterList>
+  <Validators/>
+</ParameterList>
+

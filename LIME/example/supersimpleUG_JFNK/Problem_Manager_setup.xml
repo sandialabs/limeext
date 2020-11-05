@@ -1,0 +1,8 @@
+<ParameterList>
+
+  <!-- Solver parameters -->
+
+  <Parameter name="Solver Strategy" type="string" value="JFNK"/>
+  <Parameter name="Max Time Steps" type="int" value="26"/>
+
+</ParameterList>

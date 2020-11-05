@@ -1,0 +1,10 @@
+
+#cmakedefine HAVE_MPI
+
+#cmakedefine HAVE_LIME_EXPAT
+
+#cmakedefine HAVE_LIME_BOOST
+
+#cmakedefine HAVE_LIME_JFNK
+
+#cmakedefine LIME_DEBUG

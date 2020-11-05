@@ -1,0 +1,8 @@
+<ParameterList>
+
+  <!-- Solver parameters -->
+
+  <Parameter name="Use Predictor" type="bool" value="false"/>
+  <Parameter name="Solver Strategy" type="string" value="FIXED_POINT"/>
+
+</ParameterList>

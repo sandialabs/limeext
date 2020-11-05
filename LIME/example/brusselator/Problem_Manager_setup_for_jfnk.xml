@@ -1,0 +1,7 @@
+<ParameterList>
+
+  <!-- Solver parameters -->
+
+  <Parameter name="Solver Strategy" type="string" value="JFNK"/>
+
+</ParameterList>

@@ -1,0 +1,7 @@
+*~
+*.o
+*.d
+*.swp
+!LIME_TheoryManual.tex
+lime.ps
+

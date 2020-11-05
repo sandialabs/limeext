@@ -1,0 +1,25 @@
+<ParameterList>
+  <ParameterList name="Direction">
+    <Parameter name="Method" type="string" value="Newton"/>
+    <ParameterList name="Newton">
+      <Parameter name="Forcing Term Method" type="string" value="Constant"/>
+      <ParameterList name="Linear Solver">
+        <Parameter name="Aztec Preconditioner" type="string" value="ilu"/>
+        <Parameter name="Aztec Solver" type="string" value="GMRES"/>
+        <Parameter name="Compute Scaling Manually" type="bool" value="true"/>
+        <Parameter name="Convergence Test" type="string" value="r0"/>
+        <Parameter name="Max Iterations" type="int" value="20"/>
+        <Parameter name="Output Frequency" type="int" value="1"/>
+        <Parameter name="Output Solver Details" type="bool" value="true"/>
+        <Parameter name="Size of Krylov Subspace" type="int" value="300"/>
+        <Parameter name="Tolerance" type="double" value="0.0001"/>
+      </ParameterList>
+      <Parameter name="Rescue Bad Newton Solve" type="bool" value="true"/>
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="Printing">
+    <Parameter name="MyPID" type="int" value="0"/>
+    <Parameter name="Output Information" type="int" value="103"/>
+    <Parameter name="Output Precision" type="int" value="3"/>
+  </ParameterList>
+</ParameterList>

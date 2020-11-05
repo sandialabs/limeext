@@ -1,0 +1,6 @@
+<ParameterList>
+  <Parameter name="Solve Mode" type="string" value="Jacobi"/>
+  <Parameter name="Maximum Iterations" type="int" value="10"/>
+  <Parameter name="Absolute Tolerance" type="double" value="2e-03"/>
+</ParameterList>
+

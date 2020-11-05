@@ -1,0 +1,30 @@
+# DAKOTA INPUT FILE - dakota_rosenbrock_nond.in 
+
+
+strategy,
+	single_method
+	  tabular_graphics_data
+
+method,
+	nl2sol
+	  convergence_tolerance 1.0e-3
+
+model,
+	single
+
+variables,
+	continuous_design = 1
+	  initial_point = 0.001
+	  lower_bounds 0.0 
+	  upper_bounds  0.01
+	  descriptors  'thermalcond'
+
+interface,
+	direct					
+	  analysis_driver = 'XOM_Dakota'
+
+responses,
+	num_least_squares_terms = 1		
+	numerical_gradients
+	no_hessians
+

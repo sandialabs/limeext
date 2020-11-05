@@ -1,0 +1,16 @@
+<ParameterList>
+  <ParameterList name="Expose ME Parameters">
+    <ParameterList name="Brusselator_Temperature">
+      <Parameter name="p0" type="string" value="{alpha, beta, Dcoeff}"/>
+    </ParameterList>
+    <ParameterList name="Brusselator_Species">
+      <Parameter name="p0" type="string" value="{Dcoeff, beta}"/>
+    </ParameterList>
+  </ParameterList>
+  <ParameterList name="ME Parameters Aliases">
+    <ParameterList name="shared_Dcoeff">
+      <Parameter name="Brusselator_Temperature::Dcoeff" type="string" value=""/>
+      <Parameter name="Brusselator_Species::Dcoeff"     type="string" value=""/>
+    </ParameterList>
+  </ParameterList>
+</ParameterList>
